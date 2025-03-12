@@ -12,12 +12,12 @@ print("4. Multiplication (*)")
 operator = input("Enter operator(either the number or symbol):")
 
 if operator == "1" or operator == "+":
-    print("num1 + num2 =", num1 + num2)
+    print(f"{num1} + {num2} =", num1 + num2)
 elif operator == "2" or operator == "-":
-    print("num1 - num2 =",num1 - num2)
+    print(f"{num1} - {num2} =",num1 - num2)
 elif operator == "3" or operator == "/":
-    print("num1 / num2 =",num1 / num2)
+    print(f"{num1} / {num2} =",num1 / num2)
 elif operator == "4" or operator == "*":
-    print("num1 * num2 =",num1 * num2)
+    print(f"{num1} * {num2} =",num1 * num2)
 else:
     print("Invalid input, please enter a valid operator")
